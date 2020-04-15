@@ -1,0 +1,3 @@
+select name from students where marks > 75  order by substr(name,-3),id ;
+*/ substring is a function in mysql, where substr returns a substring from where it starts and to there end you can also select the length
+*/ of substring using substr(name , -3 , 3) where 3 at last is the length of the substring.....
